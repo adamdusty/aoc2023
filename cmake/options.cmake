@@ -1,0 +1,1 @@
+option(AOC2023_BUILD_TESTS "Build tests for aoc2023" OFF)

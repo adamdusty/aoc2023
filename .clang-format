@@ -1,5 +1,6 @@
 ---
 AccessModifierOffset: -4
+AlignAfterOpenBracket: BlockIndent
 AlignConsecutiveAssignments: true
 AlignTrailingComments: true
 AllowAllConstructorInitializersOnNextLine: true

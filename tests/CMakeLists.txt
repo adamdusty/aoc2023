@@ -28,7 +28,7 @@ add_executable(aoc2023_tests)
 
 # Add test sources
 target_sources(aoc2023_tests PRIVATE
-    src/aoc2023_test.cpp
+    src/d1p1.cpp
 )
 
 # Link libs

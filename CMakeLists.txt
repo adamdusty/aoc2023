@@ -32,7 +32,7 @@ target_include_directories(
 )
 
 # Include and link dependencies
-target_link_libraries(aoc2023_aoc2023 PRIVATE adizzle::adizzle)
+target_link_libraries(aoc2023_aoc2023 PUBLIC adizzle::adizzle)
 
 # Add compile options
 add_dev_compile_opts(aoc2023_aoc2023)

@@ -21,5 +21,6 @@ struct game {
 
 auto evaluate_game(std::string data) -> std::uint64_t;
 auto sum_game_ids(std::string data) -> std::uint64_t;
+auto sum_power(std::string_view data) -> std::uint64_t;
 
 } // namespace aoc2023

@@ -5,8 +5,9 @@
 auto puzzle_input() -> std::string;
 
 auto main() -> int {
-    auto input  = puzzle_input();
-    auto result = aoc2023::sum_game_ids(input);
+    auto input = puzzle_input();
+    // auto result = aoc2023::sum_game_ids(input);
+    auto result = aoc2023::sum_power(input);
 
     std::cout << result << '\n';
 

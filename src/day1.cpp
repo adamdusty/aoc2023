@@ -1,4 +1,4 @@
-#include "aoc2023/aoc2023.hpp"
+#include "aoc2023/day1.hpp"
 
 #include <algorithm>
 #include <cctype>

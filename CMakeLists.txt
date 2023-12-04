@@ -19,7 +19,8 @@ add_library(aoc2023::aoc2023 ALIAS aoc2023_aoc2023)
 
 # Add sources
 target_sources(aoc2023_aoc2023 PRIVATE
-    src/aoc2023.cpp
+    src/day1.cpp
+    src/day2.cpp
 )
 
 # Add include directory
@@ -31,7 +32,7 @@ target_include_directories(
 )
 
 # Include and link dependencies
-#target_link_libraries(aoc2023_aoc2023)
+target_link_libraries(aoc2023_aoc2023 PRIVATE adizzle::adizzle)
 
 # Add compile options
 add_dev_compile_opts(aoc2023_aoc2023)

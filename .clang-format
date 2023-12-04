@@ -1,6 +1,9 @@
 ---
 AccessModifierOffset: -4
 AlignAfterOpenBracket: BlockIndent
+AllowAllArgumentsOnNextLine: true
+AllowAllConstructorInitializersOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
 AlignConsecutiveAssignments: true
 AlignTrailingComments: true
 AllowAllConstructorInitializersOnNextLine: true

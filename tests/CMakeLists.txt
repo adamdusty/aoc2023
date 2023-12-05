@@ -30,6 +30,7 @@ add_executable(aoc2023_tests)
 target_sources(aoc2023_tests PRIVATE
     src/d1.cpp
     src/d2.cpp
+    src/d3.cpp
 )
 
 # Link libs

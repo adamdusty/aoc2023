@@ -21,6 +21,7 @@ add_library(aoc2023::aoc2023 ALIAS aoc2023_aoc2023)
 target_sources(aoc2023_aoc2023 PRIVATE
     src/day1.cpp
     src/day2.cpp
+    src/day3.cpp
 )
 
 # Add include directory
